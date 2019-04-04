@@ -6,7 +6,7 @@ This ideia is create a container with all necessary to run behave tests in a pip
 
 ## Execute
 
-'''
+```
 $ docker build -t docker-behave .
 $ docker run docker-behave
 Feature: Testing Google Site # features/google.feature:1
@@ -24,4 +24,5 @@ Feature: Testing Google Site # features/google.feature:1
 2 scenarios passed, 0 failed, 0 skipped
 5 steps passed, 0 failed, 0 skipped, 0 undefined
 Took 0m10.177s
-'''
+```
+
